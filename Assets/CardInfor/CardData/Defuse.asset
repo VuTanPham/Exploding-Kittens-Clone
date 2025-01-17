@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afa166149013b041a53f65e52ad9d18, type: 3}
+  m_Name: Defuse
+  m_EditorClassIdentifier: 
+  cardName: Defuse
+  cardDescription: Put your last drawn card back into the deck
+  art:
+  - {fileID: 21300000, guid: 72671f01e2461eb4f9ef79c6c4e37fee, type: 3}
+  - {fileID: 21300000, guid: 458007edbc039ca4eadeb5dcea956d51, type: 3}
+  - {fileID: 21300000, guid: 7e2e172dab248d64c8fb7519e2f1d77c, type: 3}
+  - {fileID: 21300000, guid: aa45062cdc31b4549966b0635633e402, type: 3}
+  - {fileID: 21300000, guid: ae79d39fd73fe4a4faf687c334715de7, type: 3}
+  - {fileID: 21300000, guid: 52e4d9ea24b4cb64ca5f1b4953523c49, type: 3}
+  - {fileID: 21300000, guid: 041e32464cc8eda4a8a413bf7146f48a, type: 3}
+  - {fileID: 21300000, guid: 2b944b9d2bbe39040817f82a7ab33005, type: 3}
+  - {fileID: 21300000, guid: 277c0f69a5c5c364db31c4b42e65d5ac, type: 3}
+  - {fileID: 21300000, guid: a23b554e8fda835429fc935ee5f480ac, type: 3}
+  - {fileID: 21300000, guid: 5dfc6f23ebe10c944814e132cf42557b, type: 3}
+  - {fileID: 21300000, guid: 4c9e0e0fc63adae4dbeeeca1eb3d38a6, type: 3}
+  - {fileID: 21300000, guid: 9d9230687b58b004db8752c86fa3bcd3, type: 3}
+  - {fileID: 21300000, guid: d425a76de8829294896a59366692801f, type: 3}
+  - {fileID: 21300000, guid: 3e218e4bf933d42489ec1f4c0eb32acf, type: 3}
+  - {fileID: 21300000, guid: b1f871a8db55c5141b43c2170792a2f2, type: 3}
+  - {fileID: 21300000, guid: 6141b5c4bf993604c829f413711aff0a, type: 3}
+  - {fileID: 21300000, guid: 9e7794e5befb6f448b5e728e26d92968, type: 3}
+  - {fileID: 21300000, guid: 9e7794e5befb6f448b5e728e26d92968, type: 3}
+  quantity: 19

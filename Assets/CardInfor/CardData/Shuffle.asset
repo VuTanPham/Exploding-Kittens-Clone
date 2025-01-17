@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afa166149013b041a53f65e52ad9d18, type: 3}
+  m_Name: Shuffle
+  m_EditorClassIdentifier: 
+  cardName: Shuffle
+  cardDescription: Shuffle the draw pile
+  art:
+  - {fileID: 21300000, guid: 307358fddb6352a4d9de9e97ec774132, type: 3}
+  - {fileID: 21300000, guid: f9bf2867acebc6b4ab33a58f00a002f1, type: 3}
+  - {fileID: 21300000, guid: f46b6328fc5c0e747ae359d886bc8c87, type: 3}
+  - {fileID: 21300000, guid: cf5ad6a32ae4e4a44bc8c9ccc598db25, type: 3}
+  - {fileID: 21300000, guid: 5a82f6ce717b11e46be2b790918a09c1, type: 3}
+  - {fileID: 21300000, guid: 3655109d86bcd2946856ee734278c3d4, type: 3}
+  - {fileID: 21300000, guid: 299210157d3eb014f90bf64239968121, type: 3}
+  - {fileID: 21300000, guid: 913b6dce77aa8f84f85be30c87ef1b2f, type: 3}
+  quantity: 8

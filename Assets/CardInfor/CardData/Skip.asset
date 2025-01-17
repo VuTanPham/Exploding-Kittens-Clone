@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afa166149013b041a53f65e52ad9d18, type: 3}
+  m_Name: Skip
+  m_EditorClassIdentifier: 
+  cardName: Skip
+  cardDescription: End your turn without drawing a card
+  art:
+  - {fileID: 21300000, guid: e587708161581254ab8da0e502679b6d, type: 3}
+  - {fileID: 21300000, guid: bab27ee43ffba844cb1baf8fd2fc2a4a, type: 3}
+  - {fileID: 21300000, guid: e0dad5bd99f7ffe41811f92d919ac59b, type: 3}
+  - {fileID: 21300000, guid: 2db6230836bbbcd43aaeb5c9268f5ae5, type: 3}
+  - {fileID: 21300000, guid: ef82990104b595946ad36a0859686b19, type: 3}
+  - {fileID: 21300000, guid: 27713ef12dce7e54caa72b78c9067945, type: 3}
+  - {fileID: 21300000, guid: b5c1dffe21eaa174f909c25249f92d79, type: 3}
+  - {fileID: 21300000, guid: 4e4107ea52c1a2a43ad1566eb02799d3, type: 3}
+  quantity: 8

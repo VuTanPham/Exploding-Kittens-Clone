@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3afa166149013b041a53f65e52ad9d18, type: 3}
+  m_Name: Nope
+  m_EditorClassIdentifier: 
+  cardName: Nope
+  cardDescription: Stop the action of another player. You can play this at any time.
+  art:
+  - {fileID: 21300000, guid: 0a38f82b5bf1f0644977148afb5594af, type: 3}
+  - {fileID: 21300000, guid: 46a5799fb0bdea84698f64da20291942, type: 3}
+  - {fileID: 21300000, guid: f242acaeab7d10945809eaba558f09cb, type: 3}
+  - {fileID: 21300000, guid: ebab7005e2c324a40ad599be97164f1e, type: 3}
+  - {fileID: 21300000, guid: 6d0eb134b81f1e444a81f1c22eacb4b9, type: 3}
+  - {fileID: 21300000, guid: 241b94487dc5af043a33c422f1e696e1, type: 3}
+  - {fileID: 21300000, guid: eee09d378730c1b4085e9116ac031570, type: 3}
+  - {fileID: 21300000, guid: 293f465e4f8c792419520c60a85b393f, type: 3}
+  - {fileID: 21300000, guid: 5e5a3f172d5061f49bb21dd31816cdda, type: 3}
+  - {fileID: 21300000, guid: e1e343052b489404eb7f640b7019b839, type: 3}
+  quantity: 10
