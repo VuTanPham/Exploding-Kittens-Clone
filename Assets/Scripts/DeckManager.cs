@@ -1,59 +1,74 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class DeckManager : MonoBehaviour
 {
-    public CardDatabase cardDatabase; //Tham chiếu từ CardDatabase
-    private List<CardData> deck = new List<CardData>();
+    public CardDatabase cardDatabase;  // Reference CardDatabase
+    private List<CardDataWithSprite> deck = new List<CardDataWithSprite>(); //Draw Pile
 
     private void Start()
     {
-        InitialDeck();
+        InitializeDeck();
         ShuffleDeck();
     }
-    
-    //Creat Draw Pile
-    public void InitialDeck()
+
+    // Initiallide the Deck
+    private void InitializeDeck()
     {
-        deck.Clear();
-        foreach (CardData card in cardDatabase.cards)
+        deck.Clear(); // Make sure no old card
+        foreach (CardData card in cardDatabase.cards) 
         {
-            for(int i = 0; i < card.quantity; i++)
+            for (int i = 0; i < card.quantity; i++)
             {
-                deck.Add(card);
+                Sprite randomSprite = card.art[Random.Range(0, card.art.Length)];
+
+                deck.Add(new CardDataWithSprite(card, randomSprite));
             }
         }
     }
-    
-    //Shuffle
+
+    // Shuffle the draw pile
     public void ShuffleDeck()
     {
         for (int i = 0; i < deck.Count; i++)
         {
-            CardData temp = deck[i];
+            CardDataWithSprite temp = deck[i];
             int randomIndex = Random.Range(0, deck.Count);
             deck[i] = deck[randomIndex];
             deck[randomIndex] = temp;
         }
     }
 
-//     //Draw
-//     public CardData DrawCard()
-//     {
-//         if(deck.Count == 0)
-//         {
-//             Debug.Log("Deck is empty!!!");
-//             return null;
-//         }
-//     }
+    // Draw from the pile
+    public CardDataWithSprite DrawCard()
+    {
+        if (deck.Count == 0)
+        {
+            Debug.Log("Deck is empty!");
+            return null;
+        }
 
-//     CardData drawnCard = deck[0];
-//     deck.RemoveAt(0);
-//     return drawnCard;
-// }
+        CardDataWithSprite drawnCard = deck[0]; // Draw first card
+        deck.RemoveAt(0);             // Remove the drew card
+        return drawnCard;
+    }
 
-// public int GetReaminingCards()
-// {
-//     return desk.Count();
+    // Check remaining card
+    public int GetRemainingCards()
+    {
+        return deck.Count;
+    }
 }
+
+    [System.Serializable]
+    public class CardDataWithSprite
+    {
+        public CardData cardData;
+        public Sprite sprite;
+
+        public CardDataWithSprite(CardData cardData, Sprite sprite)
+        {
+            this.cardData = cardData;
+            this.sprite = sprite;
+        }
+    }

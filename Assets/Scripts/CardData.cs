@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//Define ra các loại bài và số lượng của mỗi loại bài
+//Define type of card and how many of them
 [CreateAssetMenu(fileName = "CardData", menuName = "Cards/CardData")]
 public class CardData : ScriptableObject
 {
@@ -10,5 +10,4 @@ public class CardData : ScriptableObject
     public string cardDescription;
     public Sprite[] art;
     public int quantity;
-
 }

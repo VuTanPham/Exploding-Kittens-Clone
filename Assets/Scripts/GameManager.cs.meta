@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 7aedb5f618eaeff47bb6521df61f6c88
+guid: 3a449b160340fd545a5d6f197878c26d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - cardDatabase: {fileID: 11400000, guid: ff112f93d98986946b508ca6b697ac31, type: 2}
+  - deckManager: {instanceID: 0}
+  - handArea: {instanceID: 0}
+  - cardPrefab: {instanceID: 0}
+  - remainingCardsText: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
